@@ -19,7 +19,7 @@ alias ll="ls -Alh"
 alias ls="lsd --group-dirs first"
 alias cat="bat"
 alias ssh="kitty +kitten ssh"
-
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 #for using ctrl+arrow keys
 bindkey '^[[1;5D' backward-word
@@ -31,4 +31,3 @@ bindkey  "^[[3;5~"  delete-word
 bindkey "^[[5~" up-line-or-history
 bindkey "^[[6~" down-line-or-history
 bindkey "^H" backward-delete-word
-alias config='/usr/bin/git --git-dir=/home/niks/.dotfiles/ --work-tree=/home/niks'
